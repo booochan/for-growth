@@ -1,0 +1,101 @@
+.group {
+  width: 140px;
+  margin: 0;
+  float: left;
+  height: 100%;
+  &__account {
+    background-color: $deepBlueColor1;
+    margin: 0;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    width: 140px;
+    &__name {
+      color: $whiteColor;
+      font-size: 12px;
+      font-weight: bold;
+      float: left;
+    }
+    &__btn {
+      float: right;
+      a {
+        color: $whiteColor;
+      }
+    }
+  }
+
+  &__groups {
+    clear: both;
+    background-color: $deepBlueColor1;
+    padding: 20px 15px 0 15px;
+    height: calc(100% - 50px);
+    float: left;
+    &__belong {
+      margin-bottom: 20px;
+      &__icon {
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 15px;
+        a {
+          img {
+            max-width: 40px;
+            height: auto;
+          }
+        }
+      }
+    }
+    &__new {
+      margin-bottom: 40px;
+      &__icon {
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 15px;
+        a {
+          color: $sakuraColor;
+        }
+      }
+    }
+  }
+
+  &__books {
+    background-color: $deepBlueColor2;
+    padding: 20px 15px 0 15px;
+    height: calc(100% - 50px);
+    float: left;
+    &__mentor {
+      margin-bottom: 30px;
+      &__icon {
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 15px;
+        img {
+          max-width: 40px;
+          height: auto;
+        }
+      }
+    }
+    &__mentee {
+      margin-bottom: 30px;
+      &__icon {
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 15px;
+        img {
+          max-width: 40px;
+          height: auto;
+        }
+      }
+    }
+    &__new {
+      margin-bottom: 40px;
+      &__icon {
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 15px;
+        a {
+          color: $sakuraColor;
+        }
+      }
+    }
+  }
+}

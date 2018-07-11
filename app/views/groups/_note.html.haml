@@ -1,0 +1,16 @@
+.noteview
+  .noteview__delete
+    = link_to fa_icon 'trash', class: 'fa-1x'
+  = form_tag('', method: :post) do
+    .noteview__head
+      .noteview__head__title
+        = text_area :note, :title, size: "30x1", placeholder: "2018/9/10のノート", class: "field"
+        .noteview__head__title__members
+          Member: nickmack sumsum
+      .noteview__head__edit
+        = link_to "保存", root_path, class: "btn btn-default"
+    .noteview__content
+      .noteview__content__share
+        = text_area :note, :text, placeholder: "2人で共有する文章です", class: "field"
+      .noteview__content__only
+        = text_area :note, :mentor_content,  placeholder: "あなただけが閲覧できる文章です", class: "field"
