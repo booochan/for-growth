@@ -1,0 +1,36 @@
+.group
+  .group__account
+    .group__account__name
+      ユーザー名
+    .group__account__btn
+      = link_to fa_icon 'user-circle', class: 'icon'
+  .group__groups
+    .group__groups__belong
+      .group__groups__belong__icon
+        %a{href:"URL", target: "_blank"}
+          =image_tag "sample.jpg", class: "img-thumbnail"
+      .group__groups__belong__icon
+        %a{href:"URL", target: "_blank"}
+          =image_tag "sample.jpg", class: "img-thumbnail"
+    .group__groups__new
+      .group__groups__new__icon
+        = link_to fa_icon 'plus-square', class: 'fa-3x'
+
+  .group__books
+    .group__books__mentor
+      .group__books__mentor__icon
+        %a{href:"URL", target: "_blank"}
+          =image_tag "sample.jpg", class: "img-circle"
+      .group__books__mentor__icon
+        %a{href:"URL", target: "_blank"}
+          =image_tag "sample.jpg", class: "img-circle"
+      .group__books__mentor__icon
+        %a{href:"URL", target: "_blank"}
+          =image_tag "sample.jpg", class: "img-circle"
+    .group__books__mentee
+      .group__books__mentee__icon
+        %a{href:"URL", target: "_blank"}
+          =image_tag "sample.jpg", class: "img-circle"
+    .group__books__new
+      .group__books__new__icon
+        = link_to fa_icon 'plus-circle', class: 'fa-3x'
