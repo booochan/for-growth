@@ -43,6 +43,7 @@
         text-align: right;
         a {
           color: $grayColor4;
+          font-size: 11px;
         }
       }
       &__bookname {
@@ -147,7 +148,13 @@
           color: $whiteColor;
           text-decoration: none;
           .note {
-            border-width: 0px;
+            border-style: solid;
+            border-color: $whiteColor;
+            border-width: thin;
+            border-right-width: 0px;
+            border-left-width: 0px;
+            border-bottom-width: 0px;
+
             &__title {
               color: $blackColor;
             }

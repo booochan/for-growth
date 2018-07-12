@@ -1,9 +1,10 @@
 .group
   .group__account
     .group__account__name
-      ユーザー名
+      = current_user.nickname + "さん" if user_signed_in?
     .group__account__btn
-      = link_to fa_icon 'user-circle', class: 'icon'
+      = link_to edit_user_path(current_user) do
+        = fa_icon 'user-circle', class: 'fa-2x'
   .group__groups
     .group__groups__belong
       .group__groups__belong__icon

@@ -7,19 +7,20 @@
     background-color: $deepBlueColor1;
     margin: 0;
     height: 50px;
-    line-height: 50px;
-    padding: 0 20px;
+    padding: 15px 20px 0;
     width: 140px;
     &__name {
       color: $whiteColor;
       font-size: 12px;
       font-weight: bold;
       float: left;
+      padding-top: 3px;
     }
     &__btn {
       float: right;
       a {
         color: $whiteColor;
+        font-size: 10px;
       }
     }
   }
