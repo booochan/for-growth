@@ -1,0 +1,41 @@
+.notification {
+  .notice {
+    background-color: $lightGreenColor;
+    color: $whiteColor;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    animation: fadeout 1s linear 3s 1;
+    animation-fill-mode: forwards;
+    -webkit-animation: fadeout 1s linear 3s 1;
+    -webkit-animation-fill-mode: forwards;
+  }
+  @keyframes fadeout {
+      0%   {  opacity:1;margin:0 auto;padding:10px;    }
+      100% {  opacity:0;height:0;margin:0;padding:0;  }
+  }
+  @-webkit-keyframes fadeout {
+      0%   {  opacity:1;margin:0 auto;padding:10px;    }
+      100% {  opacity:0;height:0;margin:0;padding:0;  }
+  }
+
+  .alert {
+    background-color: $sakuraColor;
+    color: $whiteColor;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    animation: fadeout 1s linear 3s 1;
+    animation-fill-mode: forwards;
+    -webkit-animation: fadeout 1s linear 3s 1;
+    -webkit-animation-fill-mode: forwards;
+  }
+  @keyframes fadeout {
+      0%   {  opacity:1;margin:0 auto;padding:10px;    }
+      100% {  opacity:0;height:0;margin:0;padding:0;  }
+  }
+  @-webkit-keyframes fadeout {
+      0%   {  opacity:1;margin:0 auto;padding:10px;    }
+      100% {  opacity:0;height:0;margin:0;padding:0;  }
+  }
+}
